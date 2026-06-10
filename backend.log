@@ -1,0 +1,70 @@
+INFO:     Will watch for changes in these directories: ['d:\\vscode\\python\\exam_manager']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1180] using StatReload
+INFO:     Started server process [42588]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+  - 超级管理员账号已存在，跳过创建
+数据库已有数据，跳过种子数据填充
+INFO:     127.0.0.1:61745 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65428 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65443 - "GET /api/students HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52137 - "POST /api/student/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52103 - "POST /api/student/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59609 - "GET /api/student/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60031 - "GET /api/student/exams/8/questions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64101 - "POST /api/student/exams/8/submit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50001 - "GET /api/student/exams/8/result HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54420 - "GET /api/users?page=1&page_size=20 HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:57470 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51823 - "GET /api/dashboard/subject-stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51826 - "GET /api/exams/upcoming?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51820 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51822 - "GET /api/dashboard/student-ranking?limit=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51824 - "GET /api/dashboard/recent-activities?limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54582 - "GET /api/users?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54584 - "GET /api/users?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56343 - "GET /api/users?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59640 - "GET /api/dashboard/subject-stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59642 - "GET /api/exams/upcoming?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59639 - "GET /api/dashboard/student-ranking?limit=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59641 - "GET /api/dashboard/recent-activities?limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50147 - "GET /api/students?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57179 - "GET /api/students?page=1&page_size=1000 HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:57181 - "GET /api/exams?page=1&page_size=1000 HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:57178 - "GET /api/scores?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64030 - "GET /api/users?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63511 - "GET /api/students?page=1&page_size=1000 HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:63513 - "GET /api/exams?page=1&page_size=1000 HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:63510 - "GET /api/scores?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52691 - "GET /api/users?page=1&page_size=20 HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'app\models.py'. Reloading...
+INFO:     127.0.0.1:50300 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58933 - "POST /api/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62609 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49875 - "GET /api/users?page=1&page_size=20 HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51197 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63229 - "GET /api/dashboard/subject-stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63231 - "GET /api/exams/upcoming?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63226 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63228 - "GET /api/dashboard/student-ranking?limit=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63230 - "GET /api/dashboard/recent-activities?limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59500 - "GET /api/students?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51887 - "GET /api/users?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62651 - "GET /api/users?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52484 - "GET /api/students?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55293 - "GET /api/users?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52913 - "POST /api/student/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52924 - "GET /api/users HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:52927 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52931 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60136 - "POST /api/student/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56599 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50364 - "POST /api/student/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50368 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63278 - "GET /api/users?page=1&page_size=20 HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:54979 - "GET /api/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57092 - "POST /api/student/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49731 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64037 - "GET /api/users HTTP/1.1" 200 OK
